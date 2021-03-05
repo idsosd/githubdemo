@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Ids OSD Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container">
+    <header><h1>Contact formulier</h1></header>
+    <form method="post" action="verwerk_contactform.php">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Uw e-mailadres</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" name="contact_email">
+        </div>
+        <div class="mb-3">
+            <label for="contact_naam" class="form-label">Uw naam</label>
+            <input type="text" class="form-control" id="contact_naam" name="contact_naam">
+        </div>
+        <div class="mb-3">
+            <label for="contact_boodschap" class="form-label">Uw boodschap</label>
+            <textarea class="form-control" id="contact_boodschap" name="contact_boodschap"></textarea>
+        </div>
+        <div class="mb-3 form-check">
+
+        </div>
+        <input type="submit" class="btn btn-primary" value="Verstuur">
+    </form>
+</div>
+</body>
+</html>
